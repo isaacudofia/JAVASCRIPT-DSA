@@ -1,5 +1,8 @@
-const A = [10, 12, 15, 30, 5]
+//BUBBLE SORT ALGORITHM
+//The bubble sort has a space complexity of O(1).
+//This algorithm has a worst-case time complexity of O(n2)
 
+const A = [10, 12, 15, 30, 5]
 
 for(let i = 0 ; i < A.length -1; i++){
   for(let j = 0 ; j < A.length-1-i; j++){
