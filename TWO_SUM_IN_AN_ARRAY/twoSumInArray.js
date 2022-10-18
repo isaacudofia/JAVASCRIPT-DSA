@@ -1,35 +1,30 @@
-const A = [2, 7, 11, 15]
+const A = [2, 7, 11, 15];
 
-var i,j
+var i, j;
 
-const target = 26
+const target = 26;
 
-console.log(`Searching...`)
+console.log(`Searching...`);
 
-const twoSuminArray =(A , target)=>{
-
-  for(let i = 0; i < A.length; i++){
-    for( let j = i + 1; j < A.length; j++){
-
-        if(A[i] + A[j] == target){
-
-          return [ i, j ]
-        }
+const twoSuminArray = (A, target) => {
+  for (let i = 0; i < A.length; i++) {
+    for (let j = i + 1; j < A.length; j++) {
+      if (A[i] + A[j] == target) {
+        return [i, j];
+      }
     }
-}
+  }
+};
 
-}
+const checkIndex = twoSuminArray(A, target);
 
-
-const checkIndex = twoSuminArray(A , target)
-
-if(checkIndex){
-    setTimeout(()=>{
-    console.log(`Found 👍`)
-    console.log(checkIndex)
-    },2000)
-}else{
-    setTimeout(()=>{
-    console.log(`Not Found 👎`)
-    }, 2000)
+if (checkIndex) {
+  setTimeout(() => {
+    console.log(`Found 👍`);
+    console.log(checkIndex);
+  }, 2000);
+} else {
+  setTimeout(() => {
+    console.log(`Not Found 👎`);
+  }, 2000);
 }
