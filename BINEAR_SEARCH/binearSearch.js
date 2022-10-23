@@ -15,15 +15,12 @@ const binearSearch = (arr, search) => {
   let ub = arr.length - 1;
 
   while (lb <= ub) {
-    console.log(`trials`); //number of time before completion
-
     let mid = Math.floor((ub + lb) / 2);
-
     if (search === arr[mid]) {
       return mid;
     }
-
-    arr[mid] < search ? (lb = mid + 1) : (ub = mid - 1);
+    if (arr[mid] < search) lb = mid + 1;
+    else ub = mid - 1;
   }
 
   return -1;
