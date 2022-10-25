@@ -2,12 +2,10 @@
 
 const A = []
 
-
 A.push("Isaac")
 A.push("David")
 A.push("Paul")
 A.push("Josh")
-
 
 const index1 = A.indexOf("Josh") 
 const index2 = A.indexOf("Paul")
