@@ -2,12 +2,11 @@
 
 A = [];
 
+
 // QUEUE HEAD
-A.push("Isaac");
+A.push("Leo");
 A.push("John");
 A.push("Peter");
-A.push("Kelar");
-A.push("Jerry");
 A.push("Priya");
 //QUEUE TAIL
 
