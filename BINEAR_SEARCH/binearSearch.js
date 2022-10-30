@@ -10,6 +10,7 @@
 //Advantages:
 //Efficient for large data set
 
+
 const binearSearch = (arr, search) => {
   let lb = 0;
   let ub = arr.length - 1;
