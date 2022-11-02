@@ -34,6 +34,7 @@ const findNumber = 9; //SEARCH VALUE HERE
 
 const checkIndex = binearSearch(array, findNumber);
 
+
 if (checkIndex == -1) {
   console.log(`Search not found 👎`);
 } else {
