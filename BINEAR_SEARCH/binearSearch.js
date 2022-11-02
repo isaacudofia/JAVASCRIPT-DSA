@@ -27,7 +27,6 @@ const binearSearch = (arr, search) => {
   return -1;
 };
 
-
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //ARRAY NEEDS TO BE SORTED FOR BINARY SEARCH RULE 1
 
 const findNumber = 9; //SEARCH VALUE HERE
